@@ -42,7 +42,7 @@
             },
             zoom: 1
         });
-        var kmlUrl = <?php echo json_encode($path); ?>;
+        var path = <?php echo json_encode($path); ?>;
         // googl cant access local server that why kml wont show untill the code is online so I added a public url to be tested
         var tesingPath = "https://drive.google.com/uc?id=10OqdYkHVJXWEbkBPKOuUQczHxMwrKXzg&export=download"
         var kmlLayer = new google.maps.KmlLayer({
