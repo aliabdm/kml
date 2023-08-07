@@ -4,16 +4,16 @@
 ### DB_DATABASE=josql
 ### DB_USERNAME=root
 ### DB_PASSWORD=
-### Install packages
 ### Set your api key
 ### GOOGLE_API_KEY
+### Install packages
 ```bash
 $ composer install
 $ npm install
 $ npm rud dev
 ### Migrate Database
-```bash
 ### note: the seeder is dynamic you will not have to fresh your database
+```bash
 $ php artisan migrate --seed
 $ php artisan storage:link
 
